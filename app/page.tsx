@@ -1,3 +1,5 @@
+import ContactSection from "@/components/sections/contact-section"
+import FAQSection from "@/components/sections/faq-section"
 import FeatureSection from "@/components/sections/feature-section"
 import Hero from "@/components/sections/hero-section"
 import LogoCloud from "@/components/sections/logo-cloud"
@@ -9,6 +11,8 @@ export default function Page() {
       <Hero />
       <LogoCloud />
       <FeatureSection />
+      <ContactSection />
+      <FAQSection />
     </SmoothScrolling>
   )
 }
