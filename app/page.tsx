@@ -9,7 +9,6 @@ export default function Page() {
   return (
     <SmoothScrolling>
       <Hero />
-      <LogoCloud />
       <FeatureSection />
       <ContactSection />
       <FAQSection />

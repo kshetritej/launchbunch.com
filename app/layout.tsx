@@ -1,5 +1,10 @@
 import type { Metadata } from "next"
-import { Geist, Bricolage_Grotesque, JetBrains_Mono } from "next/font/google"
+import {
+  Geist,
+  Bricolage_Grotesque,
+  JetBrains_Mono,
+  Inter,
+} from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -8,6 +13,11 @@ import { cn } from "@/lib/utils"
 const fontSans = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
+})
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 })
 
 const jetbrainsMono = JetBrains_Mono({
@@ -37,7 +47,7 @@ export default function RootLayout({
       className={cn(
         "antialiased",
         grotesque.variable,
-        grotesque.className
+        inter.className
         // "font-mono", jetbrainsMono.variable
       )}
     >

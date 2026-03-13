@@ -13,7 +13,7 @@ type FAQs = {
 const FAQ = ({ faqItems }: { faqItems: FAQs }) => {
   return (
     <section className="py-8 sm:py-16 lg:py-24">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
+      <div className="container mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
         {/* FAQ Header */}
         <div className="col-span-1 mb-12 space-y-4 sm:mb-16 lg:mb-24">
           <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
