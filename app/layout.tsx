@@ -1,15 +1,29 @@
-import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google"
+import type { Metadata } from "next"
+import { Geist, Bricolage_Grotesque, JetBrains_Mono } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
 const fontSans = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
 })
 
-const jetbrainsMono = JetBrains_Mono({subsets:['latin'],variable:'--font-mono'})
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+})
+
+const grotesque = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-grotesque",
+})
+
+export const metadata: Metadata = {
+  title: "LaunchBunch Website",
+  description: "",
+}
 
 export default function RootLayout({
   children,
@@ -20,7 +34,12 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontSans.variable, "font-mono", jetbrainsMono.variable)}
+      className={cn(
+        "antialiased",
+        grotesque.variable,
+        grotesque.className
+        // "font-mono", jetbrainsMono.variable
+      )}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
