@@ -44,7 +44,10 @@ export default function Hero() {
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-foreground sm:text-7xl">
               Elevate Digital Presence Through Excellence
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8"></p>
+            <p className="mt-8 text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8">
+              Launchbunch is a high-octane IT agency engineering cutting-edge
+              software, striking design, and algorithmic marketing solutions.
+            </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
