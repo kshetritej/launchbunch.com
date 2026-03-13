@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils"
 import { GridPattern } from "../ui/grid-pattern"
 import { ClientsMarquee } from "./clients-marquee"
+import LogoCloud from "./logo-cloud"
 
 export default function Hero() {
   return (
@@ -38,15 +39,12 @@ export default function Hero() {
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-8 sm:py-12 lg:py-24">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-foreground sm:text-7xl">
               Elevate Digital Presence Through Excellence
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8">
-              Launchbunch is a high-octane IT agency engineering cutting-edge
-              software, striking design, and algorithmic marketing solutions.
-            </p>
+            <p className="mt-8 text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8"></p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
@@ -60,8 +58,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <ClientsMarquee />
-        {/*<div
+        <div
           aria-hidden="true"
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         >
@@ -72,7 +69,7 @@ export default function Hero() {
             }}
             className="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"
           />
-        </div>*/}
+        </div>
       </div>
     </div>
   )
