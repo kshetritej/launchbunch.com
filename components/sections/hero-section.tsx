@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils"
 import { GridPattern } from "../ui/grid-pattern"
 import { ClientsMarquee } from "./clients-marquee"
 import LogoCloud from "./logo-cloud"
+import { ShimmerButton } from "../ui/shimmer-button"
 
 export default function Hero() {
   return (
@@ -51,7 +52,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Get started
               </a>
