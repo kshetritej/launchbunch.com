@@ -2,7 +2,10 @@ import { ChevronDownIcon } from "@heroicons/react/16/solid"
 
 export default function ContactSection() {
   return (
-    <div className="isolate bg-background px-6 py-24 sm:py-32 lg:px-8">
+    <div
+      className="isolate scroll-smooth bg-background px-6 py-24 sm:py-32 lg:px-8"
+      id="contact"
+    >
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

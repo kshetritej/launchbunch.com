@@ -7,6 +7,7 @@ import Hero from "@/components/sections/hero-section"
 import ServiceSection from "@/components/sections/services-section"
 import Stats from "@/components/sections/stats"
 import SmoothScrolling from "@/components/smooth-scrolling"
+import { Footer } from "@/components/sections/footer"
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
       <ContactSection />
       <FAQSection />
       <Cta />
+      <Footer />
     </SmoothScrolling>
   )
 }

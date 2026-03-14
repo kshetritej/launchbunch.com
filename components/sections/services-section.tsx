@@ -1,6 +1,6 @@
 export default function ServiceSection() {
   return (
-    <div className="py-24 sm:py-32">
+    <div className="py-24 sm:py-32" id="services">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-center text-base/7 font-semibold text-indigo-400">
           Reach Faster
