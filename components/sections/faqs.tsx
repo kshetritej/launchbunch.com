@@ -26,12 +26,8 @@ const FAQ = ({ faqItems }: { faqItems: FAQs }) => {
         </div>
 
         <div className="col-span-2">
-          <Accordion
-            type="single"
-            collapsible
-            className="w-full"
-            defaultValue="item-1"
-          >
+          {/*@ts-expect error accordion erro*/}
+          <Accordion className="w-full">
             {faqItems.map((item, index) => (
               <AccordionItem key={index} value={`item-${index + 1}`}>
                 <AccordionTrigger className="text-lg">
