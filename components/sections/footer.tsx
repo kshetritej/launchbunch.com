@@ -35,7 +35,7 @@ export function Footer() {
           {/* Left Section - Branding */}
           <div className="md:col-span-1">
             <Logo />
-            <p className="mb-6 text-sm leading-relaxed text-slate-400">
+            <p className="my-6 text-sm leading-relaxed text-slate-400">
               Making the world a better place through constructing elegant
               hierarchies.
             </p>

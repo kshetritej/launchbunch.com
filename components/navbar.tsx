@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className="fixed top-0 z-99 w-[100vw] bg-secondary/60">
-      <div className="container mx-auto flex justify-between p-4">
+      <div className="container mx-auto flex items-center justify-between p-4">
         <Logo />
         <div className="hidden gap-4 md:flex">
           {navigationData.map((item, index) => (
@@ -26,7 +26,9 @@ export default function Navbar() {
           ))}
         </div>
         <Link href="#contact">
-          <Button className="rounded-3xl">Contact Now</Button>
+          <Button className="rounded-3xl bg-indigo-600 p-6 hover:bg-indigo-500">
+            Contact Now
+          </Button>
         </Link>
       </div>
     </div>
