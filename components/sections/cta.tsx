@@ -55,7 +55,7 @@ export default function Cta() {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               alt="Software development dashboard"
-              src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+              src={"/cta-image.png"}
               width={1824}
               height={1080}
               className="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
