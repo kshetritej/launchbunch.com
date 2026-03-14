@@ -12,7 +12,7 @@ export default function ServiceSection() {
           <div className="relative lg:row-span-2">
             <div className="absolute inset-px rounded-lg bg-background lg:rounded-l-4xl" />
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
-              <div className="px-8 pb-3 sm:px-10 sm:pb-0">
+              <div className="px-8 py-6 pb-3 sm:px-10 sm:pb-0">
                 <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
                   Full Stack Engineering
                 </p>
