@@ -5,7 +5,7 @@ export default function ServiceSection() {
         <h2 className="text-center text-base/7 font-semibold text-indigo-400">
           Reach Faster
         </h2>
-        <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+        <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-foreground sm:text-5xl">
           Everything you need to grow your business
         </p>
         <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
@@ -13,10 +13,10 @@ export default function ServiceSection() {
             <div className="absolute inset-px rounded-lg bg-background lg:rounded-l-4xl" />
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
               <div className="px-8 py-6 pb-3 sm:px-10 sm:pb-0">
-                <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                <p className="mt-2 text-lg font-medium tracking-tight text-foreground max-lg:text-center">
                   Full Stack Engineering
                 </p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                <p className="mt-2 max-w-lg text-sm/6 text-muted-foreground max-lg:text-center">
                   We build scalable applications using Next.js and Prisma. Our
                   focus is on type-safe, high-performance architecture that
                   moves your project from MVP to production with ease.
@@ -38,10 +38,10 @@ export default function ServiceSection() {
             <div className="absolute inset-px rounded-lg bg-background max-lg:rounded-t-4xl" />
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                <p className="mt-2 text-lg font-medium tracking-tight text-foreground max-lg:text-center">
                   Technical SEO and Vitals
                 </p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                <p className="mt-2 max-w-lg text-sm/6 text-muted-foreground max-lg:text-center">
                   We treat search visibility as an engineering task. By
                   optimizing Core Web Vitals and structured data, we ensure your
                   platform is lightning-fast and search-engine prioritized.
@@ -61,10 +61,10 @@ export default function ServiceSection() {
             <div className="absolute inset-px rounded-lg bg-background" />
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                <p className="mt-2 text-lg font-medium tracking-tight text-foreground max-lg:text-center">
                   DevOps & Infrastructure
                 </p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                <p className="mt-2 max-w-lg text-sm/6 text-muted-foreground max-lg:text-center">
                   From hardened Nginx blocks to automated SSL and PM2
                   management, we handle the bedrock of your site. We ensure your
                   infrastructure is secure, stable, and always online.
@@ -84,10 +84,10 @@ export default function ServiceSection() {
             <div className="bg-indigo-80 absolute inset-px rounded-lg bg-background max-lg:rounded-b-4xl lg:rounded-r-4xl" />
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
               <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                <p className="mt-2 text-lg font-medium tracking-tight text-foreground max-lg:text-center">
                   Strategic UI/UX Design
                 </p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                <p className="mt-2 max-w-lg text-sm/6 text-muted-foreground max-lg:text-center">
                   We craft high-fidelity interfaces using Tailwind CSS and
                   modular design systems. Our layouts are architected to reduce
                   user friction and drive measurable business conversions.

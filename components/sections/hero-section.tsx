@@ -1,8 +1,5 @@
-import { cn } from "@/lib/utils"
 import { GridPattern } from "../ui/grid-pattern"
-import { ClientsMarquee } from "./clients-marquee"
 import LogoCloud from "./logo-cloud"
-import { ShimmerButton } from "../ui/shimmer-button"
 
 export default function Hero() {
   return (

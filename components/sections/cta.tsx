@@ -24,11 +24,11 @@ export default function Cta() {
           </svg>
 
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+            <h2 className="text-3xl font-semibold tracking-tight text-balance text-foreground sm:text-4xl">
               Build smarter digital products with the right technology partner.
             </h2>
 
-            <p className="mt-6 text-lg/8 text-pretty text-gray-300">
+            <p className="mt-6 text-lg/8 text-pretty text-muted-foreground">
               We design and develop modern websites, scalable applications, and
               reliable digital systems that help businesses grow faster and
               operate more efficiently.
