@@ -4,6 +4,8 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
 } from "@heroicons/react/24/outline"
+import { Button } from "../ui/button"
+import { Badge } from "../ui/badge"
 
 const features = [
   {
@@ -34,33 +36,38 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <div className="bg-background py-24 sm:py-32" id="about">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-400">
-            IT Services
-          </h2>
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-foreground sm:text-5xl lg:text-balance">
-            Technology solutions that grow your business
-          </p>
-          <p className="mt-6 text-lg/8 text-muted-foreground">
-            From web applications and cloud infrastructure to automation and
-            security, we build reliable digital solutions that help companies
-            operate faster and smarter.
-          </p>
+    <div
+      className="mx-auto min-h-[60vh] max-w-5xl bg-background py-24 sm:py-32"
+      id="about"
+    >
+      <div className="mx-auto max-w-5xl px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-8">
+          <div className="space-y-1.5">
+            <Badge className="bg-transparent p-0 text-green-500 uppercase">
+              LLMs.txt & MCP
+            </Badge>
+            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-foreground lg:text-balance">
+              Bring intelligence to enterprise knowledge
+            </p>
+            <p className="mt-6 text-base text-muted-foreground">
+              Modernize without the rebuild with enterprise-grade professional
+              service & security.
+            </p>
+          </div>
+          <div className="flex flex-col items-start justify-end">
+            <Button size={"lg"}>Explore for enterprise</Button>
+          </div>
         </div>
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
-                <dt className="text-base/7 font-semibold text-foreground">
-                  <div className="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-500">
-                    <feature.icon
-                      aria-hidden="true"
-                      className="size-6 text-white"
-                    />
-                  </div>
+              <div key={feature.name} className="relative">
+                <dt className="text-base/7 font-semibold">
+                  <feature.icon
+                    aria-hidden="true"
+                    className="size-8 text-green-500"
+                  />
                   {feature.name}
                 </dt>
                 <dd className="mt-2 text-base/7 text-muted-foreground">
