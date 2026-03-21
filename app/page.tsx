@@ -4,6 +4,7 @@ import Cta from "@/components/cta"
 import FeatureSection from "@/components/features"
 import Hero from "@/components/hero"
 import Services from "@/components/services"
+import SmoothScrolling from "@/components/smooth-scrolling"
 import Testimonials from "@/components/testimonials"
 import { Metadata } from "next"
 
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <>
+    <SmoothScrolling>
       <Hero />
       <ClientsMarquee />
       <Services />
@@ -64,6 +65,6 @@ export default function Page() {
       <About />
       <Testimonials />
       <Cta />
-    </>
+    </SmoothScrolling>
   )
 }
