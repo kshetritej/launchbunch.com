@@ -9,7 +9,7 @@ export default function Cta() {
       <div className="mx-auto flex max-w-2xl gap-4 rounded-2xl bg-gray-200/20 p-8 dark:bg-white/5">
         <div className="hidden rounded-sm bg-white p-2 md:block">
           <Image
-            src={"/aashish-khadka.jpg"}
+            src={"/aashish-khadka-seo-expert.jpg"}
             alt="profiel"
             height={400}
             width={200}
